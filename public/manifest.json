@@ -1,11 +1,13 @@
 {
   "short_name": "Olle",
   "name": "Matematik",
-  "icons": {
-    "src": "logo512.png",
-    "sizes": "512x512",
-    "type": "image/png"
-  },
+  "icons": [
+    {
+      "src": "logo512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
   "start_url": "/",
   "display": "standalone",
   "theme_color": "#09f",
