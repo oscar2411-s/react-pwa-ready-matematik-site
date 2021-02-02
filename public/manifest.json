@@ -1,13 +1,13 @@
 {
-  "short_name": "PWA React App",
-  "name": "Progressive React App Example",
+  "short_name": "Olle",
+  "name": "Matematik",
   "icons": {
-    "src": "logo-512.png",
+    "src": "logo512.png",
     "sizes": "512x512",
     "type": "image/png"
   },
   "start_url": "/",
   "display": "standalone",
-  "theme_color": "#000",
-  "background_color": "#000"
+  "theme_color": "#09f",
+  "background_color": "#fff"
 }
