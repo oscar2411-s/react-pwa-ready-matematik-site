@@ -1,0 +1,29 @@
+:root {
+  --color: #09f;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.tekst-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 15px 15px 0px 15px;
+}
+.titel {
+  text-transform: uppercase;
+  color: var(--color);
+  font-size: 36px;
+}
+.link {
+  margin-right: 18px;
+  color: var(--color);
+  transition: filter 0.6s;
+}
+
+.link:hover {
+  filter: brightness(0.7);
+}

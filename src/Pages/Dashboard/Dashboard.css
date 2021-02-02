@@ -1,0 +1,9 @@
+.board {
+  width: 100%;
+}
+.element-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
