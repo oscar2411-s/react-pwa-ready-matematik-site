@@ -1,14 +1,14 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 import "./Category.css";
 
 class Category extends React.Component {
   render() {
     return (
-      <div className="tool">
+      <Link className="tool" to={this.props.to}>
         <div className="bobel"></div>
         <h2 className="tool-titel">{this.props.titel}</h2>
-      </div>
+      </Link>
     );
   }
 }

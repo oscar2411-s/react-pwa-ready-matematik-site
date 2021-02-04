@@ -23,6 +23,7 @@
   color: white;
   overflow: hidden;
   transition: 0.8s;
+  text-decoration: none;
 }
 .tool:hover {
   box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.5);

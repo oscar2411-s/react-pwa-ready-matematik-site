@@ -1,6 +1,7 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, Switch, Route } from "react-router-dom";
 import Category from "../../Components/Category/Category";
+import PythagorasPage from "../Matematik/PythagorasPage/Pythagoras";
 import "./CategoryPage.css";
 
 class CategoryPage extends React.Component {
@@ -14,7 +15,7 @@ class CategoryPage extends React.Component {
           <h2 className="titel">Kategorier</h2>
         </div>
         <div className="container">
-          <Category titel="Pythagoras" />
+          <Category titel="Pythagoras" to="/matematik/pythagoras" />
           <Category titel="Fibonacci" />
           <Category titel="Pythagoras" />
           <Category titel="Fibonacci" />
