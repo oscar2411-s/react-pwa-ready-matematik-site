@@ -6,6 +6,8 @@ import CategoryPage from "./Pages/CategoryPage/CategoryPage.js";
 import PythagorasPage from "./Pages/Matematik/PythagorasPage/Pythagoras";
 import Hypotenuse from "./Pages/Matematik/PythagorasPage/Hypotenuse/Hypotenuse";
 import Katete from "./Pages/Matematik/PythagorasPage/Katete/Katete";
+import StatistikPage from "./Pages/Matematik/StatistikPage/StatistikPage";
+import TalanalyserPage from "./Pages/Matematik/StatistikPage/TalanalyserPage/TalanalyserPage";
 
 class App extends Component {
   render() {
@@ -25,6 +27,12 @@ class App extends Component {
             component={Hypotenuse}
           />
           <Route exact path="/matematik/pythagoras/katete" component={Katete} />
+          <Route exact path="/matematik/statistik/" component={StatistikPage} />
+          <Route
+            exact
+            path="/matematik/statistik/tal-analyser"
+            component={TalanalyserPage}
+          />
         </Switch>
       </Router>
     );

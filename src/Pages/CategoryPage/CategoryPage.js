@@ -16,7 +16,7 @@ class CategoryPage extends React.Component {
         </div>
         <div className="container">
           <Category titel="Pythagoras" to="/matematik/pythagoras" />
-          <Category titel="Fibonacci" />
+          <Category titel="Statistik" to="/matematik/statistik" />
           <Category titel="Pythagoras" />
           <Category titel="Fibonacci" />
           <Category titel="Pythagoras" />
